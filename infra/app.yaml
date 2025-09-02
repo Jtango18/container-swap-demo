@@ -47,10 +47,9 @@ spec:
     app: my-nginx
   ports:
   - protocol: TCP
-    port: 80
+    port: 8018
     targetPort: 80
-    nodePort: 30080
-  type: NodePort # Or ClusterIP if you don't need external access
+  type: LoadBalancer # Or ClusterIP if you don't need external access
 ---
 apiVersion: v1
 kind: ConfigMap
