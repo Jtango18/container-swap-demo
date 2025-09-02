@@ -42,6 +42,8 @@ kind: Service
 metadata:
   name: web-server
   namespace: container-update-demo # Ensure this matches the Argo CD app's destination namespace
+  annotations:
+    service.beta.kubernetes.io/azure-pip-name: "nginx-static-ip"
 spec:
   selector:
     app: my-nginx
