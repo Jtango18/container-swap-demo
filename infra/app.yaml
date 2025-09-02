@@ -15,7 +15,7 @@ spec:
     spec:
       initContainers:
       - name: template-processor
-        image: argodemoacr.azurecr.io/nginx:1.0  # Change tag to red/green/blue as needed
+        image: argodemoacr.azurecr.io/nginx:3.0  # Change tag to red/green/blue as needed
         command: ['sh', '-c', 'envsubst < /template/index.html.template > /shared/index.html']
         volumeMounts:
         - name: template-volume
