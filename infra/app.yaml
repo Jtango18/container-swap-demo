@@ -78,6 +78,6 @@ data:
       </style>
     </head>
     <body>
-      <h1>Octopus \u2764\ufe0f's ArgoCD!</h1>
+      <h1>Octopus &#x2764;&#xFE0F;'s ArgoCD!</h1>
     </body>
     </html>
