@@ -8,4 +8,4 @@ ENV BACKGROUND="#00FF00"
 ENV FOREGROUND="#000000"
 
 
-RUN echo "green-v1.0" > /etc/nginx-version
+RUN echo "green-v2.0" > /etc/nginx-version
